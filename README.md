@@ -164,4 +164,4 @@ gcc *.c
 This project successfully implements MP3 metadata reading and editing using C programming through a CLI-based approach. It demonstrates practical implementation of low-level file handling, binary data processing, and metadata manipulation without relying on external libraries, while maintaining the integrity of the original MP3 audio content.
 
 
-### -PRAVALLIKA THIRUKKOVALLURU
+### -Pravallika Thirukkovalluru
