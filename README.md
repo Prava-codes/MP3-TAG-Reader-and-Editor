@@ -1,6 +1,6 @@
-### 🎵 MP3 Tag Reader and Editor (ID3v2) 
+## 🎵 MP3 Tag Reader and Editor (ID3v2) 
 
-## Description
+### Description
 
 MP3 Tag Reader and Editor is a CLI-based C project developed to read and edit MP3 metadata using the ID3v2 format. It demonstrates low-level file handling, binary data processing, and metadata manipulation without using external libraries.
 
@@ -73,14 +73,17 @@ MP3-Tag-Reader-and-Editor/
 ├── mp3_header.h
 └── sample.mp3
 
+
 ## ▶️ Usage
 
 Compile the project:
 gcc *.c
 
+
 👁️ View MP3 metadata:
 
 ./a.out -v sample.mp3
+
 
 ✏️ Edit MP3 metadata:
 
