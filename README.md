@@ -1,10 +1,10 @@
-###🎵 MP3 Tag Reader and Editor (ID3v2) 
+### 🎵 MP3 Tag Reader and Editor (ID3v2) 
 
-##Description
+## Description
 
 MP3 Tag Reader and Editor is a CLI-based C project developed to read and edit MP3 metadata using the ID3v2 format. It demonstrates low-level file handling, binary data processing, and metadata manipulation without using external libraries.
 
-##Features
+## Features
 
 • Read MP3 metadata information
 • Edit MP3 metadata tags
@@ -12,7 +12,7 @@ MP3 Tag Reader and Editor is a CLI-based C project developed to read and edit MP
 • Command-line based interface
 • Preserves original audio content during editing
 
-##👁️ View MP3 Metadata
+## 👁️ View MP3 Metadata
 
 • View song title
 
@@ -26,7 +26,7 @@ MP3 Tag Reader and Editor is a CLI-based C project developed to read and edit MP
 
 • View comments
 
-##✏️ Edit MP3 Tags
+## ✏️ Edit MP3 Tags
 
 • Edit title (-t)
 
@@ -40,7 +40,7 @@ MP3 Tag Reader and Editor is a CLI-based C project developed to read and edit MP
 
 • Edit comments (-c)
 
-##🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 • C Programming
 
@@ -62,7 +62,7 @@ Concepts Used:
 
 • Endianness Conversion
 
-##Project Structure
+## Project Structure
 
 MP3-Tag-Reader-and-Editor/
 
@@ -73,7 +73,7 @@ MP3-Tag-Reader-and-Editor/
 ├── mp3_header.h
 └── sample.mp3
 
-##▶️ Usage
+## ▶️ Usage
 
 Compile the project:
 gcc *.c
@@ -96,7 +96,7 @@ gcc *.c
 
 ./a.out -e -c "New Comment" sample.mp3
 
-##How It Works
+## How It Works
 
 -> Validates command line arguments
 
@@ -117,7 +117,7 @@ gcc *.c
 -> Renames the modified file after successful editing
 
 
-##✅ Advantages
+## ✅ Advantages
 
 
 • User-friendly command line interface
@@ -130,7 +130,7 @@ gcc *.c
 
 • Efficient binary file handling
 
-##⚠️ Limitations
+## ⚠️ Limitations
 
 
 • Supports only ID3v2.3 format
@@ -141,7 +141,7 @@ gcc *.c
 
 • Limited error handling for corrupted files
 
-##📌 Learning Outcomes
+## 📌 Learning Outcomes
 
 
 • Improved understanding of file handling
@@ -156,6 +156,6 @@ gcc *.c
 
 • Understood endianness conversion techniques
 
-##🎯 Conclusion
+## 🎯 Conclusion
 
 This project successfully implements MP3 metadata reading and editing using C programming through a CLI-based approach. It demonstrates practical implementation of low-level file handling, binary data processing, and metadata manipulation without relying on external libraries, while maintaining the integrity of the original MP3 audio content.
